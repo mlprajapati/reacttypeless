@@ -1,0 +1,34 @@
+tree data format
+const treeData = [
+  {
+      name: '1',
+      children: [],
+  },
+  {
+    name: '2',
+    children: [
+      {
+        name: '2.1',
+        children: [
+          {
+            name:'2.1.1',
+            children:[
+              {
+                name:'2.1.1.1',
+                children:[]
+              }
+            ]
+          }
+        ],
+      }
+    ],
+  },
+  {
+    id: 4,
+    name: '3',
+    children: [],
+  }
+];
+import Treeview from './treeview'
+and put below component into your render function and put treedata into treeData props
+ <TreeView treeData={treeData} />
