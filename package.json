@@ -13,7 +13,7 @@
     "react": "16.8.4",
     "react-app-rewired": "2.1.1",
     "react-dom": "16.8.4",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "remeda": "^0.0.11",
     "rxjs": "6.2.2",
     "styled-components": "^4.1.3",
